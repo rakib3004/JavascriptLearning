@@ -19,3 +19,10 @@ get metaData(){
     return `type: ${this.type}, legs: ${this.legs}`
 }
 }
+
+export class Cat extends Animal{
+constructor(type,legs,tail){
+    super(type,legs);
+    this.tail = tail;
+}
+}
